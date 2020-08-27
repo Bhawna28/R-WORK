@@ -102,6 +102,6 @@ str(tidydata)
 
 #Creating tidy data with write.table() function
 ```{r}
-write.table(obs,file ="C:/Users/KALYANI/Desktop/R Projects/R-WORK/UCI HAR Dataset/finaltable.csv",row.names = FALSE)
-finaltable<-read.table("C:/Users/KALYANI/Desktop/R Projects/R-WORK/UCI HAR Dataset/finaltable.csv",header=TRUE,sep=" ")
+write.table(obs,file ="C:/Users/KALYANI/Desktop/R Projects/R-WORK/UCI HAR Dataset/finaltable.txt",row.names = FALSE)
+finaltable<-read.table("C:/Users/KALYANI/Desktop/R Projects/R-WORK/UCI HAR Dataset/finaltable.txt",header=TRUE,sep=" ")
 ```
